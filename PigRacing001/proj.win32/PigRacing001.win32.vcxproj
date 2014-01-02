@@ -131,12 +131,27 @@
     <ClInclude Include="..\Classes\HelloWorldScene.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="SceneGameOver.h" />
+    <ClInclude Include="SceneGameRun.h" />
+    <ClInclude Include="SceneGameSetting.h" />
+    <ClInclude Include="SceneMenuMainView.h" />
+    <ClInclude Include="SceneWelcome.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
     <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="LayerGameOver.cpp" />
+    <ClCompile Include="LayerGameRun.cpp" />
+    <ClCompile Include="LayerGameSetting.cpp" />
+    <ClCompile Include="LayerMenuMainView.cpp" />
+    <ClCompile Include="LayerWelcome.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="xuekai.cpp" />
+    <ClCompile Include="RoleBase.cpp" />
+    <ClCompile Include="SceneGameOver.cpp" />
+    <ClCompile Include="SceneGameRun.cpp" />
+    <ClCompile Include="SceneGameSetting.cpp" />
+    <ClCompile Include="SceneMenuMainView.cpp" />
+    <ClCompile Include="SceneWelcome.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

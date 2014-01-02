@@ -16,9 +16,6 @@
     <Filter Include="source\Scene">
       <UniqueIdentifier>{b3a0043c-27a9-4c89-b54f-82f8677a84f6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="source\UI">
-      <UniqueIdentifier>{e04dd99b-a138-47f4-9528-b311cadc30eb}</UniqueIdentifier>
-    </Filter>
     <Filter Include="source\Config">
       <UniqueIdentifier>{69f45030-de18-4d80-8506-5257b5a1359f}</UniqueIdentifier>
     </Filter>
@@ -28,8 +25,17 @@
     <Filter Include="source\Net">
       <UniqueIdentifier>{c08210eb-4288-4869-88fe-e8691dc61846}</UniqueIdentifier>
     </Filter>
+    <Filter Include="source\Layer">
+      <UniqueIdentifier>{e04dd99b-a138-47f4-9528-b311cadc30eb}</UniqueIdentifier>
+    </Filter>
     <Filter Include="source\DB">
       <UniqueIdentifier>{720e215d-9217-42ba-b129-6671721984c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Util">
+      <UniqueIdentifier>{d0290728-2a9e-4fb7-a43f-2be1af4bba90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Role">
+      <UniqueIdentifier>{fd2f4dc2-7f11-4cee-bc88-b91d4a7096c9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -64,6 +70,21 @@
     <ClInclude Include="..\Classes\HelloWorldScene.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="SceneWelcome.h">
+      <Filter>source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMenuMainView.h">
+      <Filter>source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGameSetting.h">
+      <Filter>source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGameRun.h">
+      <Filter>source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGameOver.h">
+      <Filter>source\Scene</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -75,8 +96,38 @@
     <ClCompile Include="..\Classes\HelloWorldScene.cpp">
       <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="xuekai.cpp">
-      <Filter>source</Filter>
+    <ClCompile Include="SceneWelcome.cpp">
+      <Filter>source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMenuMainView.cpp">
+      <Filter>source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGameRun.cpp">
+      <Filter>source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGameOver.cpp">
+      <Filter>source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGameSetting.cpp">
+      <Filter>source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerWelcome.cpp">
+      <Filter>source\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerMenuMainView.cpp">
+      <Filter>source\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerGameRun.cpp">
+      <Filter>source\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerGameOver.cpp">
+      <Filter>source\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerGameSetting.cpp">
+      <Filter>source\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="RoleBase.cpp">
+      <Filter>source\Role</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
