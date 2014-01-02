@@ -67,11 +67,11 @@
     <ClInclude Include="..\Classes\Config\Consts.h">
       <Filter>source\Config</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Role\LayerMenuMain.h">
-      <Filter>source\UI</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\Scene\SceneGameOver.h">
       <Filter>source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\LayerMenuMain.h">
+      <Filter>source\UI</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
