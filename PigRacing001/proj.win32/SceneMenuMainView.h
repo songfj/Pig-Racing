@@ -5,10 +5,6 @@
 
 #include "cocos2d.h"
 
-#include "Box2D/Box2D.h"
-
-#include "SimpleAudioEngine.h"
-
 class MenuMainView :public  cocos2d::CCLayer
 {
 public:

@@ -130,4 +130,9 @@
       <Filter>source\Role</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="说明.txt">
+      <Filter>source\Util</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
