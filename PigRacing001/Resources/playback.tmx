@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="10" height="50" tilewidth="48" tileheight="48">
+ <tileset firstgid="1" name="element" tilewidth="48" tileheight="48">
+  <image source="element.png" width="288" height="144"/>
+ </tileset>
+ <layer name="road" width="10" height="50">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFo3gUj+JRPIpH8ZDGAK1BAfU=
+  </data>
+ </layer>
+ <layer name="lawn" width="10" height="50">
+  <data encoding="base64" compression="zlib">
+   eJxjZ2BgYGfADdjR8Ki6UXWj6kbVjaobVTeqbvCpAwBwuwV5
+  </data>
+ </layer>
+ <layer name="body" width="10" height="50" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzNlY0KwjAMhA914px1m+//sBq0EEKWXK2oB6WQfL2U/gLAgm1FOavrq7Fsi6+ng8qd3vDIxkT5UTGZDyvtmSljrNfOYWzsSPiJLmTtiJtIvx5uT3IjybF1/4nT2rpH86MVgsOXOO/N+cX8Voc7O5zEWt8A8Yrum6ie32h/63zE76bik+EK2jWTuR5u+LBfD1f3cPBAPNc6+7f0umdsMX3ELPDPnuXurfAEvw==
+  </data>
+ </layer>
+</map>

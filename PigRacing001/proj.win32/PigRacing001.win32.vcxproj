@@ -120,6 +120,7 @@
   <ItemGroup>
     <Image Include="..\Resources\CloseNormal.png" />
     <Image Include="..\Resources\CloseSelected.png" />
+    <Image Include="..\Resources\element.png" />
     <Image Include="..\Resources\HelloWorld.png" />
     <Image Include="res\PigRacing001.ico" />
   </ItemGroup>
@@ -130,7 +131,10 @@
     <ClInclude Include="..\Classes\AppDelegate.h" />
     <ClInclude Include="..\Classes\Config\Consts.h" />
     <ClInclude Include="..\Classes\HelloWorldScene.h" />
+    <ClInclude Include="..\Classes\Role\SpritePig.h" />
     <ClInclude Include="..\Classes\Scene\SceneGameOver.h" />
+    <ClInclude Include="..\Classes\Scene\SceneGamePlay.h" />
+    <ClInclude Include="..\Classes\UI\LayerGamePlay.h" />
     <ClInclude Include="..\Classes\UI\LayerMenuMain.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="resource.h" />
@@ -139,7 +143,10 @@
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
     <ClCompile Include="..\Classes\Config\Consts.cpp" />
     <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="..\Classes\Role\SpritePig.cpp" />
     <ClCompile Include="..\Classes\Scene\SceneGameOver.cpp" />
+    <ClCompile Include="..\Classes\Scene\SceneGamePlay.cpp" />
+    <ClCompile Include="..\Classes\UI\LayerGamePlay.cpp" />
     <ClCompile Include="..\Classes\UI\LayerMenuMain.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
@@ -149,6 +156,9 @@
     <Text Include="..\Classes\Role\目录说明.txt" />
     <Text Include="..\Classes\UI\目录说明.txt" />
     <Text Include="..\Classes\Util\说明.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\playback.tmx" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

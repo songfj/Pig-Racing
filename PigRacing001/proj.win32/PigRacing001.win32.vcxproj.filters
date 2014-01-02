@@ -45,6 +45,9 @@
     <Image Include="..\Resources\HelloWorld.png">
       <Filter>resource</Filter>
     </Image>
+    <Image Include="..\Resources\element.png">
+      <Filter>resource</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="PigRacing001.rc">
@@ -73,6 +76,15 @@
     <ClInclude Include="..\Classes\UI\LayerMenuMain.h">
       <Filter>source\UI</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\UI\LayerGamePlay.h">
+      <Filter>source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\SceneGamePlay.h">
+      <Filter>source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Role\SpritePig.h">
+      <Filter>source\Role</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -93,6 +105,15 @@
     <ClCompile Include="..\Classes\Scene\SceneGameOver.cpp">
       <Filter>source\Scene</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\UI\LayerGamePlay.cpp">
+      <Filter>source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\SceneGamePlay.cpp">
+      <Filter>source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Role\SpritePig.cpp">
+      <Filter>source\Role</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\Classes\Config\目录说明.txt">
@@ -110,5 +131,10 @@
     <Text Include="..\Classes\Util\说明.txt">
       <Filter>source\Util</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\playback.tmx">
+      <Filter>resource</Filter>
+    </None>
   </ItemGroup>
 </Project>
