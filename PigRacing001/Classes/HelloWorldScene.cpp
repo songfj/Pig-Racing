@@ -10,6 +10,7 @@ void MenuMainView::about(CCObject* pSender){ }
 
 bool MenuMainView::init()
 {
+
 	 bool bRet = false;
 	do{
 	  //  .Ìí¼Ó±³¾°

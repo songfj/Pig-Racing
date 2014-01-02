@@ -13,6 +13,24 @@
       <UniqueIdentifier>{3dad02a2-77b2-41ad-ad2f-a35d1d2d9c61}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
     </Filter>
+    <Filter Include="source\Scene">
+      <UniqueIdentifier>{b3a0043c-27a9-4c89-b54f-82f8677a84f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\UI">
+      <UniqueIdentifier>{e04dd99b-a138-47f4-9528-b311cadc30eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Config">
+      <UniqueIdentifier>{69f45030-de18-4d80-8506-5257b5a1359f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Logic">
+      <UniqueIdentifier>{86e02c05-0821-4045-aefb-f5172c54737f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Net">
+      <UniqueIdentifier>{c08210eb-4288-4869-88fe-e8691dc61846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\DB">
+      <UniqueIdentifier>{720e215d-9217-42ba-b129-6671721984c7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\PigRacing001.ico">
