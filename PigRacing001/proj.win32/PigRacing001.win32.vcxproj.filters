@@ -45,9 +45,6 @@
     <Image Include="..\Resources\HelloWorld.png">
       <Filter>resource</Filter>
     </Image>
-    <Image Include="..\Resources\element.png">
-      <Filter>resource</Filter>
-    </Image>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="PigRacing001.rc">
@@ -131,10 +128,5 @@
     <Text Include="..\Classes\Util\说明.txt">
       <Filter>source\Util</Filter>
     </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\Resources\playback.tmx">
-      <Filter>resource</Filter>
-    </None>
   </ItemGroup>
 </Project>

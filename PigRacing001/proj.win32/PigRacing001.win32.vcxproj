@@ -120,7 +120,6 @@
   <ItemGroup>
     <Image Include="..\Resources\CloseNormal.png" />
     <Image Include="..\Resources\CloseSelected.png" />
-    <Image Include="..\Resources\element.png" />
     <Image Include="..\Resources\HelloWorld.png" />
     <Image Include="res\PigRacing001.ico" />
   </ItemGroup>
@@ -156,9 +155,6 @@
     <Text Include="..\Classes\Role\目录说明.txt" />
     <Text Include="..\Classes\UI\目录说明.txt" />
     <Text Include="..\Classes\Util\说明.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\Resources\playback.tmx" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

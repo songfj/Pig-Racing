@@ -4,10 +4,7 @@ using namespace cocos2d;
 
 void MenuMainView::start_single_game(CCObject* pSender)
 {
-
-
-
-
+	 
 }
 void MenuMainView::start_net_game(CCObject* pSender){ }
 void MenuMainView::setting(CCObject* pSender){ }
