@@ -1,0 +1,5 @@
+Tiled创建场景时候斜45度 
+
+选择isometric创建地图，
+tile size大小设置时候 width 设置为height的两倍。
+最好都是2的整次方

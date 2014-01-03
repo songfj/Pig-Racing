@@ -155,6 +155,7 @@
     <Text Include="..\Classes\Role\目录说明.txt" />
     <Text Include="..\Classes\UI\目录说明.txt" />
     <Text Include="..\Classes\Util\说明.txt" />
+    <Text Include="画45度地图.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

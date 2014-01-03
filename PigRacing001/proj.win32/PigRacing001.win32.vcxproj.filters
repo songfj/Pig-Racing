@@ -128,5 +128,8 @@
     <Text Include="..\Classes\Util\说明.txt">
       <Filter>source\Util</Filter>
     </Text>
+    <Text Include="画45度地图.txt">
+      <Filter>resource</Filter>
+    </Text>
   </ItemGroup>
 </Project>
